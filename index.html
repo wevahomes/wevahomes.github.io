@@ -3,46 +3,75 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weva Homes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
 </head>
 <body>
     <div class="content">
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div><div class="spacer10px"></div>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
 
-        <div class="title">Weva Homes</div>
+        <div class="logo"></div>
 
         <div class="spacer10px"></div><div class="spacer10px"></div>
-        <div class="spacer10px"></div><div class="spacer5px"></div>
+        <div class="spacer10px"></div>
 
-        <div class="image"></div>
+        <h1>Weva Homes</h1>
 
         <div class="spacer10px"></div><div class="spacer10px"></div>
-        <div class="spacer10px"></div><div class="spacer10px"></div>
-        <div class="spacer10px"></div><div class="spacer5px"></div>
-
-        <p class="center">Welcome to Weva Homes!</p>
-
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div>
 
         <p class="center">
-            We coordinate the purchase of land and the subsequent design and construction of new homes.
-            As we focus on locations close to home, we care that our impact adds value to the local community.
-            These locations include London and the South East of England.
-            If you would like to get in touch, please email us at the following email address.
+            <!-- Hello 👋 -->
+            We are a property developer, specialising in uplifting land to build homes 🏡
+            Working in Surrey and SW London 🗺️
+            <!-- To learn more about us, please take a look at our short "about" video below ⬇️ -->
         </p>
 
+        <!-- <div class="spacer10px"></div><div class="spacer10px"></div>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="About us" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe> -->
+
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+
+        <h2>Contact us</h2>
+
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div>
 
-        <p id="_"></p>
+        <a href="mailto:hello@wevahomes.com" target="_blank" class="contact-button">
+            <i class="fa-regular fa-envelope"></i> hello@wevahomes.com
+        </a>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <a href="tel:07300303306" target="_blank" class="contact-button">
+            <i class="fa-solid fa-phone"></i> 07 300 303 306
+        </a>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <a href="https://wa.me/447300303306" target="_blank" class="contact-button">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+        <div class="spacer10px"></div><div class="spacer10px"></div>
+        <a href="https://instagram.com/wevahomes" target="_blank" class="contact-button">
+            <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
 
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div><div class="spacer10px"></div>
         <div class="spacer10px"></div><div class="spacer10px"></div>
-        <div class="spacer10px"></div>
 
         <div class="copyright">
             Copyright © <span id="year"></span> Weva Homes Ltd. All rights reserved.
@@ -53,8 +82,6 @@
         <div class="spacer10px"></div><div class="spacer10px"></div>
     </div>
     <script>
-        var _ = ""; _ += "hel"; _ += "lo@"; _ += "wevaho"; _ += "mes.com";
-        document.getElementById("_").innerHTML = _;
         document.getElementById("year").innerHTML = (new Date()).getFullYear();
     </script> 
 </body>
